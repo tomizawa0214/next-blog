@@ -10,9 +10,9 @@ export default function Home({ posts }) {
       <Head>
         <title>NextJS Startup</title>
       </Head>
-      <div className="mb-10 p-3 border rounded">
+      <div className="mb-10 p-3 sm:container">
         <Image
-          className="object-cover rounded"
+          className="object-cover"
           src="/top.png"
           alt="top"
           width={1280}
